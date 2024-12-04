@@ -47,7 +47,7 @@ function Layout() {
 
                         </section>
                     ) : (
-                        <section className="flex flex-col rounded-lg bg-violet-900 font-bold top-0 mt-2 pb-4">
+                        <section className="flex flex-col rounded-lg bg-slate-900 font-bold top-0 mt-2 pb-4">
                             <div
                                 className="self-end mt-4 p-1 mr-2 rounded-md hover:border cursor-pointer "
                                 onClick={handleMenuToggle}

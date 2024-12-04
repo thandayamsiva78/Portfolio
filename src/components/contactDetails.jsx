@@ -25,7 +25,7 @@ function ContactDetails() {
                         <p>+91 6304757234</p>
                         
                     </div>
-                    <section className="flex gap-2 mt-4">
+                    <section className="flex gap-2 mt-4 mb-4">
                 <a className="p-2 bg-slate-800 rounded-xl transition-transform transform hover:scale-105" href="https://www.linkedin.com/in/siva-t-2329182b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"> <img width="30px" src="linkedin.png" alt="linkedin" />
                 </a>
                 <a className="p-2 bg-slate-800 rounded-xl transition-transform transform hover:scale-105" href="https://www.instagram.com/sivat0007/profilecard/?igsh=MWkzcjdoZnl1dHJldA==" target="blank"> <img width="30px" src="instagram.png" alt="instagram" />
@@ -44,10 +44,10 @@ function ContactDetails() {
                     <input className="w-full pb-40 rounded-sm  bg-slate-800 pl-4" type="text" name="" id="" />
                     <button className="rounded-sm py-2 font-bold text-white">Submit</button>
                 </div>
-                <div className="flex justify-end">
+                <div className="flex justify-end mt-4">
                 <a href="#introduction">
-                    <button className="p-4 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-6">
+                    <button className="p-3 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-5">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />
                         </svg>
                     </button>

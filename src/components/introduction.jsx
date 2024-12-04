@@ -10,23 +10,22 @@ function Introduction() {
         if (!isClearing) {
             const interval = setInterval(() => {
                 if (index < text.length) {
-                    setDisplayedText((prev) => prev + text[index]); // Add one character
-                    setIndex((prev) => prev + 1); // Move to the next character
+                    setDisplayedText((prev) => prev + text[index]);
+                    setIndex((prev) => prev + 1); 
                 } else {
-                    setIsClearing(true); // Trigger clearing after displaying full text
+                    setIsClearing(true); 
                 }
-            }, 200); // Animation speed
+            }, 200);
 
-            return () => clearInterval(interval); // Cleanup on unmount
+            return () => clearInterval(interval);
         } else {
-            // Clear text after a delay
             const timeout = setTimeout(() => {
-                setDisplayedText(""); // Clear the displayed text
-                setIndex(0); // Reset index
-                setIsClearing(false); // Start displaying again
-            }, 1000); // Add delay before clearing
+                setDisplayedText(""); 
+                setIndex(0); 
+                setIsClearing(false);
+            }, 1000);
 
-            return () => clearTimeout(timeout); // Cleanup timeout
+            return () => clearTimeout(timeout);
         }
     }, [index, isClearing, text]);
 
@@ -39,9 +38,11 @@ function Introduction() {
                 <p>
                     As a passionate and dedicated Frontend Developer, I specialize in creating intuitive, user-friendly interfaces that bring ideas to life on the web. With a strong foundation in HTML, CSS, and JavaScript, I strive to craft seamless and visually appealing designs, ensuring that every project I work on delivers an exceptional user experience.
                 </p>
-                <button className="cv  mt-4  px-8 py-3 rounded-3xl text-white">
+                <div className="cv">
+                <button className="mt-4  px-8 py-3 rounded-3xl text-white">
                     <a href="#" download="#">Download CV</a>
                 </button>
+                </div>
                 <div className="social-media relative flex p-3">
                     <a className="p-2 hover:bg-slate-800 hover:rounded-xl transition-transform transform hover:scale-105" href="https://github.com/thandayamsiva78" target="blank"> <img width="40px" src="github.png" alt="github" />
                     </a>

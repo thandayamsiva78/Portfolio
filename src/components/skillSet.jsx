@@ -17,7 +17,7 @@ function SkillSet() {
     ]
 
     const otherSkills = [
-        { id: 1, skillName: "Data Structures & algorithms", icon: "python.png" },
+        { id: 1, skillName: "DSA", icon: "python.png" },
         { id: 2, skillName: "Vs Code", icon: "python.png" },
         { id: 3, skillName: "Windows", icon: "python.png" },
         { id: 4, skillName: "Ms Office", icon: "python.png" },
@@ -28,7 +28,7 @@ function SkillSet() {
 
     return (
         <>
-            <section className="h-screen">
+            <section className="min-h-screen justify-center items-center overflow-hidden mb-20">
                 <h1 className="text-3xl font-bold mb-6">Skill  & Technologies</h1>
                 <h1 className="font-semibold mb-4">Frontend</h1>
                 <div className="grid grid-cols-2 gap-4 mb-4 border p-2 rounded-lg border-gray-800">
@@ -39,7 +39,7 @@ function SkillSet() {
                             </div>
                     ))}
                 </div>
-                <h2 className="font-semibold mb-4">Backend</h2>
+                <h1 className="font-semibold mb-4">Backend</h1>
                 <div className="grid grid-cols-2 gap-4 mb-4 border p-2 rounded-lg border-gray-800">
                     {backendSkills.map((item , index)=>(
                         <div key={index} className="flex gap-4 p-2 bg-slate-800">
