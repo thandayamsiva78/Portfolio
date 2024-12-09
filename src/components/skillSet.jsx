@@ -7,8 +7,8 @@ function SkillSet() {
         { id: 3, skillName: "Tailwind CSS", icon: "code.png"},
         { id: 4, skillName: "JavaScript", icon: "js.png" },
         { id: 5, skillName: "ReactJS", icon: "react.png" },
-        { id: 6, skillName: "Redux", icon: "python.png" },
-        { id: 6, skillName: "Vite", icon: "python.png" }
+        { id: 6, skillName: "Redux", icon: "redux.png" },
+        { id: 7, skillName: "Vite", icon: "Vitelogo.png" }
         
     ];
 
@@ -17,13 +17,13 @@ function SkillSet() {
     ]
 
     const otherSkills = [
-        { id: 1, skillName: "DSA", icon: "python.png" },
-        { id: 2, skillName: "Vs Code", icon: "python.png" },
-        { id: 3, skillName: "Windows", icon: "python.png" },
-        { id: 4, skillName: "Ms Office", icon: "python.png" },
-        { id: 5, skillName: "Git", icon: "python.png" },
-        { id: 6, skillName: "GitHub", icon: "python.png" },
-        { id: 6, skillName: "Netlify", icon: "python.png" }
+        { id: 1, skillName: "DSA", icon: "dsa.png" },
+        { id: 2, skillName: "Vs Code", icon: "vsCode.png" },
+        { id: 3, skillName: "Windows", icon: "windows.png" },
+        { id: 4, skillName: "Ms Office", icon: "office.png" },
+        { id: 5, skillName: "Git", icon: "git.png" },
+        { id: 6, skillName: "GitHub", icon: "github.png" },
+        { id: 6, skillName: "Netlify", icon: "Netlify.png" }
     ]
 
     return (
