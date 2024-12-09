@@ -15,7 +15,7 @@ function Layout() {
     return (
         <>
             <main id="layout"> 
-                <section className="top-0 sticky w-full z-10 bg-slate-900">
+                <section className="top-0 sticky w-full z-10 bg-white">
                     {!menuBtn ? (
                         <section className="flex justify-between items-center h-16 font-bold">
                             <h1 className="text-2xl">Portfolio.</h1>
@@ -30,7 +30,7 @@ function Layout() {
                                 onClick={() => handleMenuToggle()}
                             >
                                 <svg
-                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns="http://www.w3.org/1000/svg"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     strokeWidth="1.4"
@@ -47,22 +47,22 @@ function Layout() {
 
                         </section>
                     ) : (
-                        <section className="flex flex-col rounded-lg bg-slate-900 font-bold top-0 mt-2 pb-4">
+                        <section className="flex flex-col rounded-lg font-bold top-0 pb-4">
                             <div
-                                className="self-end mt-4 p-1 mr-2 rounded-md hover:border cursor-pointer "
+                                className="self-end mt-4 p-1 rounded-md hover:border cursor-pointer "
                                 onClick={handleMenuToggle}
                             >
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-8">
+                                <svg xmlns="http://www.w3.org/1000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-8">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                                 </svg>
 
 
                             </div>
-                            <a onClick={handleMenuToggle} href="#introduction" className="hover:bg-violet-700 rounded-md p-2 w-full ">Home</a>
-                            <a onClick={handleMenuToggle} href="#about" className="hover:bg-violet-700 rounded-md p-2 w-full">About</a>
-                            <a onClick={handleMenuToggle} href="#skillset" className=" hover:bg-violet-700 rounded-md p-2 w-full">Skills</a>
-                            <a onClick={handleMenuToggle} href="#projects" className=" hover:bg-violet-700 rounded-md p-2 w-full">Projects</a>
-                            <a onClick={handleMenuToggle} href="#contactDetails" className=" hover:bg-violet-700 rounded-md p-2 w-full">Contact</a>
+                            <a onClick={handleMenuToggle} href="#introduction" className="hover:bg-slate-50 rounded-md p-2 w-full ">Home</a>
+                            <a onClick={handleMenuToggle} href="#about" className="hover:bg-slate-50 rounded-md p-2 w-full">About</a>
+                            <a onClick={handleMenuToggle} href="#skillset" className=" hover:bg-slate-50 rounded-md p-2 w-full">Skills</a>
+                            <a onClick={handleMenuToggle} href="#projects" className=" hover:bg-slate-50 rounded-md p-2 w-full">Projects</a>
+                            <a onClick={handleMenuToggle} href="#contactDetails" className=" hover:bg-slate-50 rounded-md p-2 w-full">Contact</a>
 
                         </section>
                     )}

@@ -85,12 +85,12 @@ function Projects() {
   return (
     <>
       <h1 className="font-bold text-3xl p-4">My Projects</h1>
-      <section className="projects h-screen p-4 overflow-auto">
+      <section className="projects p-4 overflow-auto">
         <article className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {myProjects.map((item, index) => (
             <div
               key={index}
-              className="shadow-lg bg-slate-800 rounded-lg p-2 w-full h-auto flex flex-col items-center transition-transform transform hover:scale-105 cursor-pointer group relative"
+              className="shadow-lg bg-white rounded-lg p-2 w-full h-auto flex flex-col items-center transition-transform transform hover:scale-105 cursor-pointer group relative"
             >
               <h1 className="font-bold text-lg mb-2 line-clamp-1">{item.projectName}</h1>
               <img
@@ -107,7 +107,7 @@ function Projects() {
                 Click here
               </a>
               <div
-                className="p-1 absolute top-0 left-0 right-0 opacity-0 -translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all ease-in-out duration-300 z-10 bg-gradient-to-b from-blue-600/0 to-blue-800/0  mt-10 pt-10"
+                className="p-1 absolute top-0 left-0 right-0 opacity-0 -translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all ease-in-out duration-300 z-10 bg-gradient-to-b from-blue-600/0 to-blue-200/0  mt-10 pt-10"
               >
                 <div className="flex flex-wrap justify-center items-center gap-2">
                   {item.tools.map((details, index) => (
