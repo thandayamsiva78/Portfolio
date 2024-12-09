@@ -33,7 +33,7 @@ function SkillSet() {
                 <h1 className="font-semibold mb-4">Frontend</h1>
                 <div className="grid grid-cols-2 gap-4 mb-4 border p-2 rounded-lg border-slate-200  ">
                     {frontedSkills.map((item , index)=>(
-                        <div key={index} className="flex gap-4 p-2 bg-white hover:bg-slate-500">
+                        <div key={index} className="flex gap-4 p-2 bg-slate-50 hover:bg-slate-200">
                             <img width="30px" src={item.icon} alt={item.skillName} />
                             <h1>{item.skillName}</h1>
                             </div>
@@ -42,7 +42,7 @@ function SkillSet() {
                 <h1 className="font-semibold mb-4">Backend</h1>
                 <div className="grid grid-cols-2 gap-4 mb-4 border p-2 rounded-lg border-slate-200">
                     {backendSkills.map((item , index)=>(
-                        <div key={index} className="flex gap-4 p-2 bg-white hover:bg-slate-500">
+                        <div key={index} className="flex gap-4 p-2 bg-slate-50 hover:bg-slate-200">
                             <img width="30px" src={item.icon} alt={item.skillName} />
                             <h1>{item.skillName}</h1>
                             </div>
@@ -51,7 +51,7 @@ function SkillSet() {
                 <h1 className="font-semibold mb-4">Other Skills</h1>
                 <div className="grid grid-cols-2 gap-4 mb-4 border p-2 rounded-lg border-slate-200">
                     {otherSkills.map((item , index)=>(
-                        <div key={index} className="flex gap-4 p-2 bg-white hover:bg-slate-500">
+                        <div key={index} className="flex gap-4 p-2 bg-slate-50 hover:bg-slate-200">
                             <img width="30px" src={item.icon} alt={item.skillName} />
                             <h1>{item.skillName}</h1>
                             </div>

@@ -15,17 +15,18 @@ function Layout() {
     return (
         <>
             <main id="layout"> 
-                <section className="top-0 sticky w-full z-10 bg-white">
+                <section className="navbar top-0 sticky w-full z-10">
                     {!menuBtn ? (
                         <section className="flex justify-between items-center h-16 font-bold">
                             <h1 className="text-2xl">Portfolio.</h1>
                             <nav className="hidden md:flex gap-6">
-                                <a href="#introduction" className="hover:border-b-2 hover:border-yellow-500 rounded-md p-2">Home</a>
-                                <a href="#about" className="hover:border-b-2 hover:border-yellow-500 rounded-md p-2">About</a>
-                                <a href="#skillset" className="hover:border-b-2 hover:border-yellow-500 rounded-md p-2">Skills</a>
-                                <a href="#projects" className="hover:border-b-2 hover:border-yellow-500 rounded-md p-2">Projects</a>
-                                <a href="#contactDetails" className="hover:border-b-2 hover:border-yellow-500 rounded-md p-2">Contact</a>
+                                <a href="#introduction" className="hover:border-b-2 hover:border-blue-500 rounded-md p-2">Home</a>
+                                <a href="#about" className="hover:border-b-2 hover:border-blue-500 rounded-md p-2">About</a>
+                                <a href="#skillset" className="hover:border-b-2 hover:border-blue-500 rounded-md p-2">Skills</a>
+                                <a href="#projects" className="hover:border-b-2 hover:border-blue-500 rounded-md p-2">Projects</a>
+                                <a href="#contactDetails" className="hover:border-b-2 hover:border-blue-500 rounded-md p-2">Contact</a>
                             </nav>
+                            {/*Menu Button  */}
                             <div className="md:hidden cursor-pointer"
                                 onClick={() => handleMenuToggle()}
                             >
@@ -47,7 +48,7 @@ function Layout() {
 
                         </section>
                     ) : (
-                        <section className="flex flex-col rounded-lg font-bold top-0 pb-4">
+                        <section className="navbar flex flex-col rounded-lg font-bold top-0 pb-4">
                             <div
                                 className="self-end mt-4 p-1 rounded-md hover:border cursor-pointer "
                                 onClick={handleMenuToggle}

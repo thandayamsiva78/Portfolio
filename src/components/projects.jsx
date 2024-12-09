@@ -104,7 +104,7 @@ function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Click here
+                <i>Demo Link</i>
               </a>
               <div
                 className="p-1 absolute top-0 left-0 right-0 opacity-0 -translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all ease-in-out duration-300 z-10 bg-gradient-to-b from-blue-600/0 to-blue-200/0  mt-10 pt-10"
