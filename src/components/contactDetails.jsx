@@ -46,7 +46,7 @@ function ContactDetails() {
                 </div>
                 <div className="flex justify-end mt-4">
                     <a href="#introduction">
-                        <button className="p-3 rounded-full">
+                        <button className="p-3 rounded-full hover:bg-violet-600">
                             <svg xmlns="http://www.w3.org/1000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" className="size-5">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />
                             </svg>

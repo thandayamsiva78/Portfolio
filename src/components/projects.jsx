@@ -108,7 +108,7 @@ function Projects() {
                 alt={item.projectName}
               />
               <a
-                className="font-semibold text-blue-500 hover:underline"
+                className="font-semibold text-blue-500 hover:underline hover:text-violet-600"
                 href={item.demoLink}
                 target="_blank"
                 rel="noopener noreferrer"
