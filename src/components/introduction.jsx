@@ -44,11 +44,11 @@ function Introduction() {
                 </button>
                 </div>
                 <div className="social-media relative flex p-3">
-                    <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://github.com/thandayamsiva78" target="blank"> <img width="40px" src="github.png" alt="github" />
-                    </a>
                     <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://www.linkedin.com/in/siva-t-2329182b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"> <img width="40px" src="linkedin.png" alt="linkedin" />
                     </a>
                     <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://leetcode.com/u/tsiva_jtbb2/" target="blank"> <img width="40px" src="programming.png" alt="leetcode" />
+                    </a>
+                    <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://github.com/thandayamsiva78" target="blank"> <img width="40px" src="github.png" alt="github" />
                     </a>
                     <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://www.instagram.com/sivat0007/profilecard/?igsh=MWkzcjdoZnl1dHJldA==" target="blank"> <img width="40px" src="instagram.png" alt="instagram" />
                     </a>
