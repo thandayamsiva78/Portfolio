@@ -26,23 +26,23 @@ function ContactDetails() {
 
                     </div>
                     <section className="flex gap-2 mt-4 mb-4">
-                        <a className="p-2 bg-slate-50 rounded-xl transition-transform transform hover:scale-105" href="https://www.linkedin.com/in/siva-t-2329182b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"> <img width="30px" src="linkedin.png" alt="linkedin" />
+                        <a className="p-2 border-gray-400 hover:bg-gray-50  rounded-xl transition-transform transform hover:scale-105" href="https://www.linkedin.com/in/siva-t-2329182b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"> <img width="30px" src="linkedin.png" alt="linkedin" />
                         </a>
-                        <a className="p-2 bg-slate-50 rounded-xl transition-transform transform hover:scale-105" href="https://www.instagram.com/sivat0007/profilecard/?igsh=MWkzcjdoZnl1dHJldA==" target="blank"> <img width="30px" src="instagram.png" alt="instagram" />
+                        <a className="p-2 border-gray-400 hover:bg-gray-50  rounded-xl transition-transform transform hover:scale-105" href="https://www.instagram.com/sivat0007/profilecard/?igsh=MWkzcjdoZnl1dHJldA==" target="blank"> <img width="30px" src="instagram.png" alt="instagram" />
                         </a>
                     </section>
                 </div>
                 <div className="flex flex-col gap-2">
                     <div className="flex flex-col gap-2 md:flex-row">
-                        <input className="w-full p-3 rounded-sm  bg-slate-50 pl-4" type="text" name="" id="" placeholder="First Name" />
-                        <input className="w-full p-3 rounded-sm  bg-slate-50 pl-4" type="text" name="" id="" placeholder="Last Name" />
+                        <input className="w-full p-3   border-gray-400 border bg-transparent rounded-lg pl-4" type="text" name="" id="" placeholder="First Name" />
+                        <input className="w-full p-3   border-gray-400 border bg-transparent rounded-lg pl-4" type="text" name="" id="" placeholder="Last Name" />
                     </div>
                     <div className="flex flex-col gap-2 md:flex-row">
-                        <input className="w-full p-3 rounded-sm  bg-slate-50 pl-4" type="text" name="" id="" placeholder="Email" />
-                        <input className="w-full p-3 rounded-sm  bg-slate-50 pl-4" type="text" name="" id="" placeholder="Phone No" />
+                        <input className="w-full p-3   border-gray-400 border bg-transparent rounded-lg pl-4" type="text" name="" id="" placeholder="Email" />
+                        <input className="w-full p-3   border-gray-400 border bg-transparent rounded-lg pl-4" type="text" name="" id="" placeholder="Phone No" />
                     </div>
-                    <input className="w-full pb-40 rounded-sm  bg-slate-50 pl-4" type="text" name="" id="" />
-                    <button className="rounded-sm py-2 font-bold text-white mt-4">Submit</button>
+                    <input className="w-full pb-40   border-gray-400 border bg-transparent rounded-lg pl-4 pt-2" type="text" name="" id="" />
+                    <button className="submit  py-2 font-bold text-white mt-4">Submit</button>
                 </div>
                 <div className="flex justify-end mt-4">
                     <a href="#introduction">

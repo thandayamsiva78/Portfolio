@@ -33,7 +33,8 @@ button{
 }
 
 .navbar{
-  background-color: white;
+  background: transparent;
+  backdrop-filter: blur(30px);
 }
 
 
@@ -74,11 +75,18 @@ button{
     border-radius: 100%;
   }
   .navbar{
-    background-color: whitesmoke;
+    background: transparent;
+    backdrop-filter: blur(30px);
   }
 
 }
 
+
+.CV:hover , .submit:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+  
+}
 
 
 
@@ -93,3 +101,14 @@ html {
 }
 
 
+
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark{
+  background-color: rgba(14, 14, 36, 0.541);
+  color: black;
+}

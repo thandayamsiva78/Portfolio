@@ -8,23 +8,43 @@ import ContactDetails from "./contactDetails";
 function Layout() {
     const [menuBtn, setMenuBtn] = useState(false)
 
+    const [active , setActive] = useState(false);
+
     function handleMenuToggle() {
         setMenuBtn((prevState) => !prevState)
     }
 
+    function handleDarkMode () {
+        setActive(!active)
+        if (!active) {
+            document.body.classList.add("dark-mode");
+        }
+        else{
+            document.body.classList.remove("dark-mode");
+        }
+
+    }
+
     return (
         <>
-            <main id="layout"> 
-                <section className="navbar top-0 sticky w-full z-10">
+            <main id="layout">
+                <header className="navbar top-0 sticky w-full z-10 rounded-sm">
                     {!menuBtn ? (
                         <section className="flex justify-between items-center h-16 font-bold">
+                            <div className="flex gap-6 items-center" >
                             <h1 className="text-2xl">Portfolio.</h1>
+                            <div  className="hover:bottom-2 border-gray-200 hover:border rounded-md p-1 cursor-pointer">
+                                <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className={`size-6 ${ active ? "text-white" : "text-black"}`}  onClick={()=> handleDarkMode()}>
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                                </svg>
+                            </div>
+                            </div>
                             <nav className="hidden md:flex gap-6">
-                                <a href="#introduction" className="hover:border-b-2 hover:border-blue-500 rounded-md p-2">Home</a>
-                                <a href="#about" className="hover:border-b-2 hover:border-blue-500 rounded-md p-2">About</a>
-                                <a href="#skillset" className="hover:border-b-2 hover:border-blue-500 rounded-md p-2">Skills</a>
-                                <a href="#projects" className="hover:border-b-2 hover:border-blue-500 rounded-md p-2">Projects</a>
-                                <a href="#contactDetails" className="hover:border-b-2 hover:border-blue-500 rounded-md p-2">Contact</a>
+                                <a href="#introduction" className="hover:border-b-2 hover:border-blue-4000 rounded-md p-2">Home</a>
+                                <a href="#about" className="hover:border-b-2 hover:border-blue-4000 rounded-md p-2">About</a>
+                                <a href="#skillset" className="hover:border-b-2 hover:border-blue-4000 rounded-md p-2">Skills</a>
+                                <a href="#projects" className="hover:border-b-2 hover:border-blue-4000 rounded-md p-2">Projects</a>
+                                <a href="#contactDetails" className="hover:border-b-2 hover:border-blue-4000 rounded-md p-2">Contact</a>
                             </nav>
                             {/*Menu Button  */}
                             <div className="md:hidden cursor-pointer"
@@ -59,15 +79,15 @@ function Layout() {
 
 
                             </div>
-                            <a onClick={handleMenuToggle} href="#introduction" className="hover:bg-slate-50 rounded-md p-2 w-full ">Home</a>
-                            <a onClick={handleMenuToggle} href="#about" className="hover:bg-slate-50 rounded-md p-2 w-full">About</a>
-                            <a onClick={handleMenuToggle} href="#skillset" className=" hover:bg-slate-50 rounded-md p-2 w-full">Skills</a>
-                            <a onClick={handleMenuToggle} href="#projects" className=" hover:bg-slate-50 rounded-md p-2 w-full">Projects</a>
-                            <a onClick={handleMenuToggle} href="#contactDetails" className=" hover:bg-slate-50 rounded-md p-2 w-full">Contact</a>
+                            <a onClick={handleMenuToggle} href="#introduction" className="hover:bg-slate-400 rounded-md p-2 w-full ">Home</a>
+                            <a onClick={handleMenuToggle} href="#about" className="hover:bg-slate-400 rounded-md p-2 w-full">About</a>
+                            <a onClick={handleMenuToggle} href="#skillset" className=" hover:bg-slate-400 rounded-md p-2 w-full">Skills</a>
+                            <a onClick={handleMenuToggle} href="#projects" className=" hover:bg-slate-400 rounded-md p-2 w-full">Projects</a>
+                            <a onClick={handleMenuToggle} href="#contactDetails" className=" hover:bg-slate-400 rounded-md p-2 w-full">Contact</a>
 
                         </section>
                     )}
-                </section>
+                </header>
                 <section id="introduction"> <Introduction /> </section>
                 <section id="about"> <About /> </section>
                 <section id="skillset"> <SkillSet /> </section>

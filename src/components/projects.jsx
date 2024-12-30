@@ -80,17 +80,25 @@ function Projects() {
       tools: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
       details: "",
     },
+    {
+      id: 11,
+      projectName: "Recipe find App",
+      image: "Screenshot from 2024-12-22 23-39-11.png",
+      demoLink: "https://astounding-daifuku-faee1f.netlify.app/",
+      tools: ["HTML", "CSS", "Tailwind CSS", "JavaScript" , "ReactJS"],
+      details: "",
+    },
   ];
   console.log(myProjects);
   return (
     <>
-      <h1 className="font-bold text-3xl p-4">My Projects</h1>
+      <h1 className="font-bold text-3xl p-4">My  <span className="text-blue-600 pl-4">Projects</span></h1>
       <section className="projects p-4 overflow-auto">
         <article className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {myProjects.map((item, index) => (
             <div
               key={index}
-              className="shadow-lg bg-white rounded-lg p-2 w-full h-auto flex flex-col items-center transition-transform transform hover:scale-105 cursor-pointer group relative"
+              className="shadow-lg bg-transparent rounded-lg p-2 w-full h-auto flex flex-col items-center transition-transform transform hover:scale-105 cursor-pointer group relative"
             >
               <h1 className="font-bold text-lg mb-2 line-clamp-1">{item.projectName}</h1>
               <img
