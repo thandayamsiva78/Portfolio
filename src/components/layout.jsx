@@ -28,7 +28,7 @@ function Layout() {
     return (
         <>
             <main id="layout">
-                <header className="navbar top-0 sticky w-full z-10 rounded-sm pl-2 pr-2">
+                <header className="navbar top-0 sticky w-full z-10 rounded-sm pl-2 pr-2 shadow-xl">
                     {!menuBtn ? (
                         <section className="flex justify-between items-center h-16 font-bold">
                             <div className="flex gap-6 items-center" >
