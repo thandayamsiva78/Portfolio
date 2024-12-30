@@ -28,7 +28,7 @@ function Layout() {
     return (
         <>
             <main id="layout">
-                <header className="navbar top-0 sticky w-full z-10 rounded-sm">
+                <header className="navbar top-0 sticky w-full z-10 rounded-sm pl-2 pr-2">
                     {!menuBtn ? (
                         <section className="flex justify-between items-center h-16 font-bold">
                             <div className="flex gap-6 items-center" >
@@ -40,11 +40,11 @@ function Layout() {
                             </div>
                             </div>
                             <nav className="hidden md:flex gap-6">
-                                <a href="#introduction" className="hover:border-b-2 hover:border-blue-4000 rounded-md p-2">Home</a>
-                                <a href="#about" className="hover:border-b-2 hover:border-blue-4000 rounded-md p-2">About</a>
-                                <a href="#skillset" className="hover:border-b-2 hover:border-blue-4000 rounded-md p-2">Skills</a>
-                                <a href="#projects" className="hover:border-b-2 hover:border-blue-4000 rounded-md p-2">Projects</a>
-                                <a href="#contactDetails" className="hover:border-b-2 hover:border-blue-4000 rounded-md p-2">Contact</a>
+                                <a href="#introduction" className="hover:border-b-2 hover:border-blue-400 rounded-md p-2">Home</a>
+                                <a href="#about" className="hover:border-b-2 hover:border-blue-400 rounded-md p-2">About</a>
+                                <a href="#skillset" className="hover:border-b-2 hover:border-blue-400 rounded-md p-2">Skills</a>
+                                <a href="#projects" className="hover:border-b-2 hover:border-blue-400 rounded-md p-2">Projects</a>
+                                <a href="#contactDetails" className="hover:border-b-2 hover:border-blue-400 rounded-md p-2">Contact</a>
                             </nav>
                             {/*Menu Button  */}
                             <div className="md:hidden cursor-pointer"
