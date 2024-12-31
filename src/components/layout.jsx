@@ -28,7 +28,7 @@ function Layout() {
     return (
         <>
             <main id="layout">
-                <header className="navbar top-0 sticky w-full z-10 rounded-sm pl-2 pr-2 shadow-xl">
+                <header className="navbar top-0 sticky w-full z-10 rounded-sm pl-2 pr-2 shadow-md">
                     {!menuBtn ? (
                         <section className="flex justify-between items-center h-16 font-bold">
                             <div className="flex gap-6 items-center" >
@@ -79,11 +79,11 @@ function Layout() {
 
 
                             </div>
-                            <a onClick={handleMenuToggle} href="#introduction" className="hover:bg-slate-400 rounded-md p-2 w-full ">Home</a>
-                            <a onClick={handleMenuToggle} href="#about" className="hover:bg-slate-400 rounded-md p-2 w-full">About</a>
-                            <a onClick={handleMenuToggle} href="#skillset" className=" hover:bg-slate-400 rounded-md p-2 w-full">Skills</a>
-                            <a onClick={handleMenuToggle} href="#projects" className=" hover:bg-slate-400 rounded-md p-2 w-full">Projects</a>
-                            <a onClick={handleMenuToggle} href="#contactDetails" className=" hover:bg-slate-400 rounded-md p-2 w-full">Contact</a>
+                            <a onClick={handleMenuToggle} href="#introduction" className="hover:bg-blue-400 hover:text-white rounded-md p-2 w-full ">Home</a>
+                            <a onClick={handleMenuToggle} href="#about" className="hover:bg-blue-400 hover:text-white rounded-md p-2 w-full">About</a>
+                            <a onClick={handleMenuToggle} href="#skillset" className=" hover:bg-blue-400 hover:text-white rounded-md p-2 w-full">Skills</a>
+                            <a onClick={handleMenuToggle} href="#projects" className=" hover:bg-blue-400 hover:text-white rounded-md p-2 w-full">Projects</a>
+                            <a onClick={handleMenuToggle} href="#contactDetails" className=" hover:bg-blue-400 hover:text-white rounded-md p-2 w-full">Contact</a>
 
                         </section>
                     )}

@@ -51,7 +51,7 @@ button{
   }
   .introduction , .about , .skillset , .projects , .contactDetails {
     height: auto;
-    padding: 0px 10px;
+    padding: 0px 16px;
     margin: 0 0;
     margin-bottom: 20px;
   }
@@ -88,6 +88,7 @@ button{
   .navbar{
     background: transparent;
     backdrop-filter: blur(30px);
+    padding: 0 10px;
   }
 
 }
@@ -141,6 +142,8 @@ html {
 .dark-mode {
   background-color: #0f172a;
   color: #ffffff;
+  /* background: linear-gradient(to right, rgb(3, 18, 83), black); */
+              
 }
 
 .dark{

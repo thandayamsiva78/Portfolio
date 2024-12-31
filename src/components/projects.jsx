@@ -99,7 +99,7 @@ function Projects() {
           {myProjects.map((item, index) => (
             <div
               key={index}
-              className="shadow-xl bg-inherit rounded-lg p-2 w-full h-auto flex flex-col items-center transition-transform transform hover:scale-105 cursor-pointer group relative"
+              className="shadow-md bg-slate-100 hover:bg-slate-50 text-black rounded-lg p-2 w-full h-auto flex flex-col items-center transition-transform transform hover:scale-105 cursor-pointer group relative"
             >
               <h1 className="font-bold text-lg mb-2 line-clamp-1">{item.projectName}</h1>
               <img
