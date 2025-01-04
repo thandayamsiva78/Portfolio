@@ -57,7 +57,7 @@ function Introduction() {
 
             <div className="profile flex justify-center items-center">
                 <div className="profile-image flex justify-center items-center rounded-xl">
-                    <img className="rounded-lg w-full h-full object-cover border-red-400 border p-2" src="profile-image.png" alt="profile" />
+                    <img className="rounded-lg w-full h-full object-cover border-violet-400 border p-2" src="profile-image.png" alt="profile" />
                 </div>
             </div>
         </section>
