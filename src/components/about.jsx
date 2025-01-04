@@ -8,7 +8,7 @@ function About() {
         <>
             <section className="introduction grid grid-cols-2 items-center">
             <div className="profile hidden lg:flex">
-                <div className="profile-image flex w-[400px] h-[400px] justify-center items-center  rounded-full">
+                <div className="profile-image2 flex w-[400px] h-[400px] justify-center items-center  rounded-full">
                     <img className="rounded-full w-full h-full object-cover" src="Screenshot from 2024-12-03 11-34-27.png" alt="profile" />
                 </div>
             </div>

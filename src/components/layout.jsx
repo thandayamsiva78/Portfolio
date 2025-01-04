@@ -40,11 +40,11 @@ function Layout() {
                             </div>
                             </div>
                             <nav className="hidden md:flex gap-6">
-                                <a href="#introduction" className="hover:border-b-2 hover:border-blue-400 rounded-md p-2">Home</a>
-                                <a href="#about" className="hover:border-b-2 hover:border-blue-400 rounded-md p-2">About</a>
-                                <a href="#skillset" className="hover:border-b-2 hover:border-blue-400 rounded-md p-2">Skills</a>
-                                <a href="#projects" className="hover:border-b-2 hover:border-blue-400 rounded-md p-2">Projects</a>
-                                <a href="#contactDetails" className="hover:border-b-2 hover:border-blue-400 rounded-md p-2">Contact</a>
+                                <a href="#introduction" className="hover:border-b-2 hover:border-violet-600 rounded-md p-2">Home</a>
+                                <a href="#about" className="hover:border-b-2 hover:border-violet-600 rounded-md p-2">About</a>
+                                <a href="#skillset" className="hover:border-b-2 hover:border-violet-600 rounded-md p-2">Skills</a>
+                                <a href="#projects" className="hover:border-b-2 hover:border-violet-600 rounded-md p-2">Projects</a>
+                                <a href="#contactDetails" className="hover:border-b-2 hover:border-violet-600 rounded-md p-2">Contact</a>
                             </nav>
                             {/*Menu Button  */}
                             <div className="md:hidden cursor-pointer"
@@ -68,7 +68,7 @@ function Layout() {
 
                         </section>
                     ) : (
-                        <section className="navbar flex flex-col rounded-lg font-bold top-0 pb-4">
+                        <section className="navbar flex flex-col rounded-lg font-bold top-0 pb-4 text-center">
                             <div
                                 className="self-end mt-4 p-1 rounded-md hover:border cursor-pointer "
                                 onClick={handleMenuToggle}
@@ -79,11 +79,11 @@ function Layout() {
 
 
                             </div>
-                            <a onClick={handleMenuToggle} href="#introduction" className="hover:bg-blue-400 hover:text-white rounded-md p-2 w-full ">Home</a>
-                            <a onClick={handleMenuToggle} href="#about" className="hover:bg-blue-400 hover:text-white rounded-md p-2 w-full">About</a>
-                            <a onClick={handleMenuToggle} href="#skillset" className=" hover:bg-blue-400 hover:text-white rounded-md p-2 w-full">Skills</a>
-                            <a onClick={handleMenuToggle} href="#projects" className=" hover:bg-blue-400 hover:text-white rounded-md p-2 w-full">Projects</a>
-                            <a onClick={handleMenuToggle} href="#contactDetails" className=" hover:bg-blue-400 hover:text-white rounded-md p-2 w-full">Contact</a>
+                            <a onClick={handleMenuToggle} href="#introduction" className="hover:bg-violet-600 hover:text-white rounded-md p-2 w-full ">Home</a>
+                            <a onClick={handleMenuToggle} href="#about" className="hover:bg-violet-600 hover:text-white rounded-md p-2 w-full">About</a>
+                            <a onClick={handleMenuToggle} href="#skillset" className=" hover:bg-violet-600 hover:text-white rounded-md p-2 w-full">Skills</a>
+                            <a onClick={handleMenuToggle} href="#projects" className=" hover:bg-violet-600 hover:text-white rounded-md p-2 w-full">Projects</a>
+                            <a onClick={handleMenuToggle} href="#contactDetails" className=" hover:bg-violet-600 hover:text-white rounded-md p-2 w-full">Contact</a>
 
                         </section>
                     )}

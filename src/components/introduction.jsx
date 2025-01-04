@@ -40,7 +40,7 @@ function Introduction() {
                 </p>
                 <div className="cv">
                 <button className="CV mt-4  px-8 py-3 rounded-3xl text-white">
-                    <a href="#" download="#">Download CV</a>
+                    <a href="TSiva_Resume_Final.pdf" download="Tsiva_resume">Download CV</a>
                 </button>
                 </div>
                 <div className="social-media relative flex p-3">
@@ -56,8 +56,8 @@ function Introduction() {
             </div>
 
             <div className="profile flex justify-center items-center">
-                <div className="profile-image flex justify-center items-center rounded-full">
-                    <img className="rounded-full w-full h-full object-cover" src="profile-image.png" alt="profile" />
+                <div className="profile-image flex justify-center items-center rounded-xl">
+                    <img className="rounded-lg w-full h-full object-cover border-red-400 border p-2" src="profile-image.png" alt="profile" />
                 </div>
             </div>
         </section>

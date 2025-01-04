@@ -26,9 +26,8 @@ button{
 
 .profile-image{
   width: 400px;
-  height: 400px;
+  height: 550px;
   border-radius: 100%;
-  box-shadow: 2px 2px 100px rgb(0, 89, 255);
 }
 
 .navbar{
@@ -140,7 +139,7 @@ html {
 /* Dark - Mode */
 
 .dark-mode {
-  background-color: #0f172a;
+  background-color: #1a1a1a;
   color: #ffffff;
   /* background: linear-gradient(to right, rgb(3, 18, 83), black); */
               
