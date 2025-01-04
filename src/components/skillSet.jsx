@@ -23,7 +23,9 @@ function SkillSet() {
         { id: 4, skillName: "Ms Office", icon: "office.png" },
         { id: 5, skillName: "Git", icon: "git.png" },
         { id: 6, skillName: "GitHub", icon: "github.png" },
-        { id: 6, skillName: "Netlify", icon: "Netlify.png" }
+        { id: 6, skillName: "Netlify", icon: "Netlify.png" },
+        { id: 7, skillName: "Ubuntu/linux" , icon: "linux_logo.png"}
+
     ]
 
     return (
