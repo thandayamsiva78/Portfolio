@@ -13,7 +13,8 @@ function SkillSet() {
     ];
 
     const backendSkills = [
-        { id: 1, skillName: "Python", icon: "python.png" }
+        { id: 1, skillName: "Python", icon: "python.png" },
+        { id: 2, skillName: "SQL", icon: "sql.png" }
     ]
 
     const otherSkills = [
@@ -37,7 +38,7 @@ function SkillSet() {
                     {frontedSkills.map((item , index)=>(
                         <div key={index} className="flex gap-4 p-2 bg-transparent hover:bg-slate-400 rounded-md border-slate-400 border">
                             <img width="30px" src={item.icon} alt={item.skillName} />
-                            <h1>{item.skillName}</h1>
+                            <h1 className="text-wrap">{item.skillName}</h1>
                             </div>
                     ))}
                 </div>
@@ -46,7 +47,7 @@ function SkillSet() {
                     {backendSkills.map((item , index)=>(
                         <div key={index} className="flex gap-4 p-2 bg-transparent hover:bg-slate-400 rounded-md border-slate-400 border">
                             <img width="30px" src={item.icon} alt={item.skillName} />
-                            <h1>{item.skillName}</h1>
+                            <h1 className="text-wrap">{item.skillName}</h1>
                             </div>
                     ))}
                 </div>
@@ -55,7 +56,7 @@ function SkillSet() {
                     {otherSkills.map((item , index)=>(
                         <div key={index} className="flex gap-4 p-2 bg-transparent hover:bg-slate-400 rounded-md border-slate-400 border">
                             <img width="30px" src={item.icon} alt={item.skillName} />
-                            <h1>{item.skillName}</h1>
+                            <h1 className="text-wrap">{item.skillName}</h1>
                             </div>
                     ))}
                 </div>
