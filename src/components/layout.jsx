@@ -40,11 +40,11 @@ function Layout() {
                             </div>
                             </div>
                             <nav className="hidden md:flex gap-6">
-                                <a href="#introduction" className="hover:border-b-2 hover:border-orange-bg-orange-500 rounded-md p-2">Home</a>
-                                <a href="#about" className="hover:border-b-2 hover:border-orange-bg-orange-500 rounded-md p-2">About</a>
-                                <a href="#skillset" className="hover:border-b-2 hover:border-orange-bg-orange-500 rounded-md p-2">Skills</a>
-                                <a href="#projects" className="hover:border-b-2 hover:border-orange-bg-orange-500 rounded-md p-2">Projects</a>
-                                <a href="#contactDetails" className="hover:border-b-2 hover:border-orange-bg-orange-500 rounded-md p-2">Contact</a>
+                                <a href="#introduction" className="hover:border-b-2 hover:border-violet-600 rounded-md p-2">Home</a>
+                                <a href="#about" className="hover:border-b-2 hover:border-violet-600 rounded-md p-2">About</a>
+                                <a href="#skillset" className="hover:border-b-2 hover:border-violet-600 rounded-md p-2">Skills</a>
+                                <a href="#projects" className="hover:border-b-2 hover:border-violet-600 rounded-md p-2">Projects</a>
+                                <a href="#contactDetails" className="hover:border-b-2 hover:border-violet-600 rounded-md p-2">Contact</a>
                             </nav>
                             {/*Menu Button  */}
                             <div className="md:hidden cursor-pointer"
