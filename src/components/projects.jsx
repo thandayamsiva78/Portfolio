@@ -77,7 +77,7 @@ function Projects() {
       projectName: "Memory Card Game",
       image: "memory-game.png",
       demoLink: "#",
-      tools: ["HTML", "CSS", "Tailwind CSS", "JavaScript"],
+      tools: ["HTML", "CSS", "JavaScript"],
       details: "",
     },
     {
@@ -99,11 +99,11 @@ function Projects() {
           {myProjects.map((item, index) => (
             <div
               key={index}
-              className="shadow-md bg-slate-100 hover:bg-slate-50 text-black rounded-lg p-2 w-full h-auto flex flex-col items-center transition-transform transform hover:scale-105 cursor-pointer group relative hover:border-red-400 border "
+              className="shadow-md bg-slate-100 hover:bg-slate-50 text-black rounded-lg p-2 w-full h-full flex flex-col items-center transition-transform transform hover:scale-105 cursor-pointer group relative hover:border-red-400 border "
             >
-              <h1 className="font-bold mb-2 line-clamp-1">{item.projectName}</h1>
+              <h1 className="font-bold mb-2 line-clamp-1 border-b">{item.projectName}</h1>
               <img
-                className="rounded-lg w-full h-[140px] object-cover mb-2"
+                className="rounded-lg h-[130px] object-cover mb-2"
                 src={item.image}
                 alt={item.projectName}
               />
@@ -115,7 +115,7 @@ function Projects() {
               >
                 <i className="flex gap-2 text-sm">
                   <p>View Project</p>
-                  <p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="size-6">
+                  <p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="size-4">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                   </svg>
                   </p>

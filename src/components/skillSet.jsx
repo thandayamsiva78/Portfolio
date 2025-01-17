@@ -56,7 +56,7 @@ function SkillSet() {
                     {otherSkills.map((item , index)=>(
                         <div key={index} className="flex gap-4 p-2 bg-transparent hover:bg-slate-400 rounded-md border-slate-400 border">
                             <img width="30px" src={item.icon} alt={item.skillName} />
-                            <h1 className="text-wrap">{item.skillName}</h1>
+                            <h1 className="flex flex-wrap">{item.skillName}</h1>
                             </div>
                     ))}
                 </div>
