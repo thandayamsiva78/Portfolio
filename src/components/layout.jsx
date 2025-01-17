@@ -68,9 +68,9 @@ function Layout() {
 
                         </section>
                     ) : (
-                        <section className="navbar flex flex-col rounded-lg font-bold top-0 pb-4 text-center">
+                        <section className="navbar flex flex-col rounded-lg top-0 pb-4 text-center">
                             <div
-                                className="self-end mt-4 p-1 rounded-md hover:border cursor-pointer "
+                                className="self-end mt-4 p-1 rounded-md hover:border cursor-pointer"
                                 onClick={handleMenuToggle}
                             >
                                 <svg xmlns="http://www.w3.org/1000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-8">
@@ -83,7 +83,7 @@ function Layout() {
                             <a onClick={handleMenuToggle} href="#about" className="hover:bg-orange-500 hover:text-white rounded-md p-2 w-full">About</a>
                             <a onClick={handleMenuToggle} href="#skillset" className=" hover:bg-orange-500 hover:text-white rounded-md p-2 w-full">Skills</a>
                             <a onClick={handleMenuToggle} href="#projects" className=" hover:bg-orange-500 hover:text-white rounded-md p-2 w-full">Projects</a>
-                            <a onClick={handleMenuToggle} href="#contactDetails" className=" hover:bg-orange-500 hover:text-white rounded-md p-2 w-full bg-violet-700 mb-4">Contact</a>
+                            <a onClick={handleMenuToggle} href="#contactDetails" className=" hover:bg-orange-500 hover:text-white rounded-md p-2 w-full bg-violet-700 mb-4 text-white">Contact</a>
 
                         </section>
                     )}
