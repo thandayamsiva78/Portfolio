@@ -25,7 +25,7 @@ function SkillSet() {
         { id: 5, skillName: "Git", icon: "git.png" },
         { id: 6, skillName: "GitHub", icon: "github.png" },
         { id: 6, skillName: "Netlify", icon: "Netlify.png" },
-        { id: 7, skillName: "Ubuntu/linux" , icon: "linux_logo.png"}
+        { id: 7, skillName: "Ubuntu" , icon: "linux_logo.png"}
 
     ]
 
@@ -56,7 +56,7 @@ function SkillSet() {
                     {otherSkills.map((item , index)=>(
                         <div key={index} className="flex gap-4 p-2 bg-transparent hover:bg-slate-400 rounded-md border-slate-400 border">
                             <img width="30px" src={item.icon} alt={item.skillName} />
-                            <h1 className="flex flex-wrap">{item.skillName}</h1>
+                            <h1 className="text-wrap">{item.skillName}</h1>
                             </div>
                     ))}
                 </div>
