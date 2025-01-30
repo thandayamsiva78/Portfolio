@@ -88,6 +88,14 @@ function Projects() {
       tools: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "ReactJS"],
       details: "",
     },
+    {
+      id: 12,
+      projectName: "BCT Website",
+      image: "Screenshot from 2025-01-14 13-33-03.png",
+      demoLink: "https://bct-website-homepage.vercel.app/",
+      tools: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "ReactJS"],
+      details: "",
+    },
   ];
   console.log(myProjects);
   return (

@@ -34,13 +34,13 @@ function Introduction() {
             <div>
                 <h1 className="text-3xl font-bold">Hello its me</h1>
                 <h1 className="text-3xl font-bold"><span className="text-blue-600">Thandayam Siva</span></h1>
-                <h1 className="name text-3xl">Iam a ..<span className="font-light text-gray-700">{displayedText}</span></h1>
+                <h1 className="name text-3xl">Iam a ..<span className="font-light text-gray-600">{displayedText}</span></h1>
                 <p>
                     As a passionate and dedicated Frontend Developer, I specialize in creating intuitive, user-friendly interfaces that bring ideas to life on the web. With a strong foundation in HTML, CSS, and JavaScript, I strive to craft seamless and visually appealing designs, ensuring that every project I work on delivers an exceptional user experience.
                 </p>
                 <div className="cv">
                 <button className="CV mt-4  px-8 py-3 rounded-3xl text-white">
-                    <a href="TSiva_Resume_Final.pdf" download="Tsiva_resume.pdf">Download Resume</a>
+                    <a href="TSiva_Resume_Final.pdf" download="Tsiva_resume.pdf">Download CV</a>
                 </button>
                 </div>
                 <div className="social-media relative flex p-3">
