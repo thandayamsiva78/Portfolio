@@ -44,7 +44,7 @@ function Projects() {
       id: 6,
       projectName: "Movie Search App",
       image: "movie-app.png",
-      demoLink: "https://helpful-sorbet-dacaad.netlify.app",
+      demoLink: "https://movie-search-app-six-umber.vercel.app",
       tools: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "ReactJS"],
       details: "",
     },
