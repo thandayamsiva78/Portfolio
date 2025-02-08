@@ -40,7 +40,11 @@ function Introduction() {
                 </p>
                 <div className="cv">
                 <button className="CV mt-4  px-8 py-3 rounded-3xl text-white">
+<<<<<<< HEAD
                     <a href="TSiva_Resume_Final.pdf" download="Tsiva_resume.pdf">Download CV</a>
+=======
+                    <a href="T Siva latest.pdf" download="T Siva latest.pdf">Download Resume</a>
+>>>>>>> ea0cdb5 (resume added)
                 </button>
                 </div>
                 <div className="social-media relative flex p-3">
@@ -50,8 +54,13 @@ function Introduction() {
                     </a>
                     <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://github.com/thandayamsiva78" target="blank"> <img width="40px" src="github.png" alt="github" />
                     </a>
+<<<<<<< HEAD
                     <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://www.instagram.com/sivat0007/profilecard/?igsh=MWkzcjdoZnl1dHJldA==" target="blank"> <img width="40px" src="instagram.png" alt="instagram" />
                     </a>
+=======
+                    {/* <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://www.instagram.com/sivat0007/profilecard/?igsh=MWkzcjdoZnl1dHJldA==" target="blank"> <img width="40px" src="instagram.png" alt="instagram" />
+                    </a> */}
+>>>>>>> ea0cdb5 (resume added)
                 </div>
             </div>
 
