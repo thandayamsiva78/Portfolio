@@ -11,17 +11,17 @@ function Introduction() {
             const interval = setInterval(() => {
                 if (index < text.length) {
                     setDisplayedText((prev) => prev + text[index]);
-                    setIndex((prev) => prev + 1); 
+                    setIndex((prev) => prev + 1);
                 } else {
-                    setIsClearing(true); 
+                    setIsClearing(true);
                 }
             }, 100);
 
             return () => clearInterval(interval);
         } else {
             const timeout = setTimeout(() => {
-                setDisplayedText(""); 
-                setIndex(0); 
+                setDisplayedText("");
+                setIndex(0);
                 setIsClearing(false);
             }, 1000);
 
@@ -39,13 +39,9 @@ function Introduction() {
                     As a passionate and dedicated Frontend Developer, I specialize in creating intuitive, user-friendly interfaces that bring ideas to life on the web. With a strong foundation in HTML, CSS, and JavaScript, I strive to craft seamless and visually appealing designs, ensuring that every project I work on delivers an exceptional user experience.
                 </p>
                 <div className="cv">
-                <button className="CV mt-4  px-8 py-3 rounded-3xl text-white">
-<<<<<<< HEAD
-                    <a href="TSiva_Resume_Final.pdf" download="Tsiva_resume.pdf">Download CV</a>
-=======
-                    <a href="T Siva latest.pdf" download="T Siva latest.pdf">Download Resume</a>
->>>>>>> ea0cdb5 (resume added)
-                </button>
+                    <button className="CV mt-4  px-8 py-3 rounded-3xl text-white">
+                        <a href="T Siva latest.pdf" download="T Siva latest.pdf">Download Resume</a>
+                    </button>
                 </div>
                 <div className="social-media relative flex p-3">
                     <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://www.linkedin.com/in/siva-t-2329182b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"> <img width="40px" src="linkedin.png" alt="linkedin" />
@@ -54,13 +50,10 @@ function Introduction() {
                     </a>
                     <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://github.com/thandayamsiva78" target="blank"> <img width="40px" src="github.png" alt="github" />
                     </a>
-<<<<<<< HEAD
-                    <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://www.instagram.com/sivat0007/profilecard/?igsh=MWkzcjdoZnl1dHJldA==" target="blank"> <img width="40px" src="instagram.png" alt="instagram" />
-                    </a>
-=======
                     {/* <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://www.instagram.com/sivat0007/profilecard/?igsh=MWkzcjdoZnl1dHJldA==" target="blank"> <img width="40px" src="instagram.png" alt="instagram" />
                     </a> */}
->>>>>>> ea0cdb5 (resume added)
+                    {/* <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://www.instagram.com/sivat0007/profilecard/?igsh=MWkzcjdoZnl1dHJldA==" target="blank"> <img width="40px" src="instagram.png" alt="instagram" />
+                    </a> */}
                 </div>
             </div>
 
