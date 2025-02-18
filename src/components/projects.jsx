@@ -97,21 +97,21 @@ function Projects() {
     <>
 
       <section className="projects p-4 overflow-auto">
-        <h1 className="font-bold text-3xl p-4">My  <span className="text-blue-600 pl-4">Projects</span></h1>
+        <h1 className="font-bold text-3xl p-4">My  <span className="text-red-600 pl-4">Projects</span></h1>
         <article className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {myProjects.map((item, index) => (
             <div
               key={index}
-              className="shadow-md bg-slate-100 hover:bg-slate-50 text-black rounded-lg p-2 w-full h-full flex flex-col items-center transition-transform transform hover:scale-105 cursor-pointer group relative"
+              className="shadow-md border rounded-lg p-2 w-full h-full flex flex-col items-center transition-transform transform hover:scale-105 cursor-pointer group relative"
             >
-              <h1 className="font-bold mb-2 line-clamp-1 border-b">{item.projectName}</h1>
+              <h1 className="font-bold mb-2 line-clamp-1">{item.projectName}</h1>
               <img
                 className="rounded-lg h-[130px] object-cover mb-2"
                 src={item.image}
                 alt={item.projectName}
               />
               <a
-                className="font-semibold text-blue-500 hover:underline hover:text-violet-600"
+                className="font-semibold text-red-500 hover:underline hover:text-white"
                 href={item.demoLink}
                 target="_blank"
                 rel="noopener noreferrer"

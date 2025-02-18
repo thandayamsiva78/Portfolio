@@ -7,7 +7,7 @@ function ContactDetails() {
         <>
             <section className="contactDetails grid grid-cols-2 justify-center items-center">
                 <div>
-                    <h1 className="text-4xl font-extrabold mb-4">Contact <span className="text-blue-600 pl-2">Me</span></h1>
+                    <h1 className="text-4xl font-extrabold mb-4">Contact <span className="text-red-600 pl-2">Me</span></h1>
                     <h2 className="text-xl font-semibold pb-4">Lets Work Together</h2>
                     <p>Together, we can turn ideas into reality.</p>
                     <div className="flex gap-4 items-center mt-8 mb-2">

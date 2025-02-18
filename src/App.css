@@ -20,7 +20,7 @@ body{
 
 
 button{
-  background-color: rgb(79 70 229 );
+  background-color: rgb(244, 35, 35);
   font-weight: bold;
 }
 
@@ -34,7 +34,7 @@ button{
   background: transparent;
   backdrop-filter: blur(30px);
   padding: 0px 250px;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.151);
+  border-bottom: 1px solid rgba(255, 0, 0, 0.151);
 
 }
 

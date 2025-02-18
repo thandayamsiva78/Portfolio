@@ -34,7 +34,7 @@ function SkillSet() {
     return (
         <>
             <section className="skillset justify-center items-center overflow-hidden mb-20 ml-2 mr-2">
-                <h1 className="text-3xl font-bold mb-6">Skills  <span className="text-blue-600 pr-2 pl-2">&</span> Technologies</h1>
+                <h1 className="text-3xl font-bold mb-6">Skills  <span className="text-red-600 pr-2 pl-2">&</span> Technologies</h1>
                 <h1 className="font-semibold mb-4">Frontend</h1>
                 <div className="grid grid-cols-2 gap-4 mb-4  p-2 rounded-lg">
                     {frontedSkills.map((item , index)=>(
