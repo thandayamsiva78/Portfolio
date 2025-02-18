@@ -38,7 +38,7 @@ function SkillSet() {
                 <h1 className="font-semibold mb-4">Frontend</h1>
                 <div className="grid grid-cols-2 gap-4 mb-4  p-2 rounded-lg">
                     {frontedSkills.map((item , index)=>(
-                        <div key={index} className="flex gap-4 p-2 bg-transparent hover:bg-slate-400 rounded-md border-slate-400 border">
+                        <div key={index} className="flex gap-4 p-2 bg-transparent  rounded-md border-slate-400 border">
                             <img width="30px" src={item.icon} alt={item.skillName} />
                             <h1 className="text-wrap">{item.skillName}</h1>
                             </div>
@@ -47,7 +47,7 @@ function SkillSet() {
                 <h1 className="font-semibold mb-4">Backend</h1>
                 <div className="grid grid-cols-2 gap-4 mb-4  p-2 rounded-lg">
                     {backendSkills.map((item , index)=>(
-                        <div key={index} className="flex gap-4 p-2 bg-transparent hover:bg-slate-400 rounded-md border-slate-400 border">
+                        <div key={index} className="flex gap-4 p-2 bg-transparent  rounded-md border-slate-400 border">
                             <img width="30px" src={item.icon} alt={item.skillName} />
                             <h1 className="text-wrap">{item.skillName}</h1>
                             </div>
@@ -56,7 +56,7 @@ function SkillSet() {
                 <h1 className="font-semibold mb-4">Other Skills</h1>
                 <div className="grid grid-cols-2 gap-4 mb-4 p-2 rounded-lg">
                     {otherSkills.map((item , index)=>(
-                        <div key={index} className="flex gap-4 p-2 bg-transparent hover:bg-slate-400 rounded-md border-slate-400 border">
+                        <div key={index} className="flex gap-4 p-2 bg-transparent  rounded-md border-slate-400 border">
                             <img width="30px" src={item.icon} alt={item.skillName} />
                             <h1 className="text-wrap">{item.skillName}</h1>
                             </div>
