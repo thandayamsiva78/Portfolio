@@ -23,7 +23,7 @@ function SkillSet() {
         { id: 3, skillName: "Windows", icon: "windows.png" },
         { id: 4, skillName: "Ms Office", icon: "office.png" },
         { id: 5, skillName: "Git", icon: "git.png" },
-        { id: 6, skillName: "GitHub", icon: "github.png" },
+        { id: 6, skillName: "GitHub", icon: "github_logo.png" },
         { id: 6, skillName: "Netlify", icon: "Netlify.png" },
         { id: 7, skillName: "Ubuntu" , icon: "linux_logo.png"},
         { id: 8, skillName: "Power BI" , icon: "_solution_logo_08112023_4065933.png"}

@@ -48,7 +48,7 @@ function Introduction() {
                     </a>
                     <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://leetcode.com/u/tsiva_jtbb2/" target="blank"> <img width="40px" src="programming.png" alt="leetcode" />
                     </a>
-                    <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://github.com/thandayamsiva78" target="blank"> <img width="40px" src="github.png" alt="github" />
+                    <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://github.com/thandayamsiva78" target="blank"> <img width="40px" src="github_logo.png" alt="github" />
                     </a>
                     {/* <a className="p-2 hover:rounded-xl transition-transform transform hover:scale-105" href="https://www.instagram.com/sivat0007/profilecard/?igsh=MWkzcjdoZnl1dHJldA==" target="blank"> <img width="40px" src="instagram.png" alt="instagram" />
                     </a> */}
