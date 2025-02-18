@@ -1,15 +1,13 @@
 function Projects() {
   const myProjects = [
     {
-      id: 1,
-      projectName: "Demo Portfolio",
-      image: "demo-portfolio.png",
-      demoLink: "https://thandayamsiva78.github.io/POTFOLIO-DEMO/",
-      tools: ["HTML", "CSS", "JavaScript"],
+      projectName: "Flipkart Website",
+      image: "Screenshot from 2025-02-03 14-53-53.png",
+      demoLink: "https://flipkart-website-gamma.vercel.app/",
+      tools: ["HTML", "CSS", "TailwindCSS","JavaScript" , "ReactJS" , "ShadcnUI"],
       details: "",
     },
     {
-      id: 2,
       projectName: "Boat E-commerce",
       image: "boat.png",
       demoLink: "https://thandayamsiva78.github.io/boat-eCommerce-website/",
@@ -17,7 +15,6 @@ function Projects() {
       details: "",
     },
     {
-      id: 3,
       projectName: "To-Do App",
       image: "to-do-list.png",
       demoLink: "https://thandayamsiva78.github.io/TO-DO-LIST/",
@@ -25,7 +22,6 @@ function Projects() {
       details: "",
     },
     {
-      id: 4,
       projectName: "Spotify-UI-Clone",
       image: "spotify-clone.png",
       demoLink: "https://thandayamsiva78.github.io/Spotify-homepage-clone/",
@@ -33,7 +29,6 @@ function Projects() {
       details: "",
     },
     {
-      id: 5,
       projectName: "E-Commerce Website",
       image: "e-commerce.png",
       demoLink: "https://silver-queijadas-beb652.netlify.app",
@@ -41,7 +36,6 @@ function Projects() {
       details: "",
     },
     {
-      id: 6,
       projectName: "Movie Search App",
       image: "movie-app.png",
       demoLink: "https://movie-search-app-six-umber.vercel.app",
@@ -49,7 +43,6 @@ function Projects() {
       details: "",
     },
     {
-      id: 7,
       projectName: "Music Player",
       image: "music-app.png",
       demoLink: "https://stately-cocada-44b7ef.netlify.app/",
@@ -57,7 +50,6 @@ function Projects() {
       details: "",
     },
     {
-      id: 8,
       projectName: "Personal Financial Tracker",
       image: "personal_financial-tracker.png",
       demoLink: "https://thandayamsiva78.github.io/Personal-Financial-Tracker/",
@@ -65,7 +57,6 @@ function Projects() {
       details: "",
     },
     {
-      id: 9,
       projectName: "Expense Splitter",
       image: "expense-splitter.png",
       demoLink: "https://voluble-cupcake-b8d117.netlify.app/",
@@ -73,7 +64,6 @@ function Projects() {
       details: "",
     },
     {
-      id: 10,
       projectName: "Memory Card Game",
       image: "memory-game.png",
       demoLink: "#",
@@ -81,7 +71,6 @@ function Projects() {
       details: "",
     },
     {
-      id: 11,
       projectName: "Recipe find App",
       image: "Screenshot from 2024-12-22 23-39-11.png",
       demoLink: "https://astounding-daifuku-faee1f.netlify.app/",
@@ -89,11 +78,17 @@ function Projects() {
       details: "",
     },
     {
-      id: 12,
       projectName: "BCT Website",
       image: "Screenshot from 2025-01-14 13-33-03.png",
       demoLink: "https://bct-website-homepage.vercel.app/",
       tools: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "ReactJS"],
+      details: "",
+    },
+    {
+      projectName: "Demo Portfolio",
+      image: "demo-portfolio.png",
+      demoLink: "https://thandayamsiva78.github.io/POTFOLIO-DEMO/",
+      tools: ["HTML", "CSS", "JavaScript"],
       details: "",
     },
   ];
@@ -135,7 +130,7 @@ function Projects() {
                 <div className="flex flex-wrap justify-center items-center gap-2">
                   {item.tools.map((details, index) => (
                     <div
-                      className="text-sm bg-blue-500 px-2 rounded-3xl text-white"
+                      className="text-sm font-semibold bg-black px-2 rounded-3xl text-white"
                       key={index}
                     >
                       {details}

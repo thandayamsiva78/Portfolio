@@ -40,7 +40,7 @@ function Introduction() {
                 </p>
                 <div className="cv">
                     <button className="CV mt-4  px-8 py-3 rounded-3xl text-white">
-                        <a href="T Siva latest.pdf" download="T Siva latest.pdf">Download Resume</a>
+                        <a href="FAANGPath_Simple_Template (15).pdf" download="TSiva_resume_latest.pdf">Download Resume</a>
                     </button>
                 </div>
                 <div className="social-media relative flex p-3">
